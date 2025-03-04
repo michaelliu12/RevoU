@@ -3,10 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RevoU Fundamental Course</title>
+    <title>SEFC RevoU</title>
+    <style>
+        table, th, td{
+            border: 1px solid darkgrey;
+        }
+        input{
+            border-color: rgb(55, 0, 255);
+            border-radius: 6px;
+            padding: 4px;
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>Hello World !!!</h1>
-    <h2>Just testing something from zero</h2>
+    <!-- Header Section -->
+    <div>
+        <h1>Sofware Engineering Fundamental Course by RevoU</h1>
+        <h3>Point-point Basic HTML</h3>
+    </div>
+    <!-- Body Section -->
+     <div>
+        <table>
+            <tr>
+                <th>Point</th>
+                <th>Keterangan</th>
+            </tr>
+            <tr>
+                <td>Paragraph</td>
+                <td>Digunakan untuk mengatur Paragraph yang diinginkan</td>
+            </tr>
+            <tr>
+                <td>Table</td>
+                <td>Digunakan untuk membuat sebuah table di Html</td>
+            </tr>
+            <tr>
+                <td>Image</td>
+                <td>Digunakan untuk memasukkan gambar pada Html</td>
+            </tr>
+            <tr>
+                <td>Form</td>
+                <td>Digunakan untuk memberikan user input</td>
+            </tr>
+            <tr>
+                <td>Button</td>
+                <td>Digunakan untuk membuat tombol pada Html</td>
+            </tr>
+            <tr>
+                <td>Select Form</td>
+                <td>Digunakan untuk memberikan pilihan jawaban di Html</td>
+            </tr>
+            <tr>
+                <td>Option Group</td>
+                <td>Digunakan untuk memberikan pilihan jawaban berdasarkan group</td>
+            </tr>
+        </table>
+        <br><hr><br>
+        <form>
+            <div id="form_nama">
+                <label for="name">Nama : </label>
+                <input id="name" type="text">
+            </div><br>
+            <div>
+                <label for="umur">Umur : </label>
+                <input id="umur" type="number" min="12" max="80">
+            </div><br>
+            <h5><b>Wht u fav color ?</b></h5>
+            <select>
+                <option>Red</option>
+                <option>Blue</option>
+                <option selected>Yellow</option>
+            </select>
+            <br>
+            <input type="radio" name="fav_prog_lan" id="html" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" name="fav_prog_lan" id="Java" value="Java">
+            <label for="java">JAVA</label><br>
+            <input type="radio" name="fav_prog_lan" id="css" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="submit" value="Submit">
+        </form>
+     </div>
+     <!-- Footer Section -->
+      <div>
+        <h5>Created by Michael. <br/> &copy; 2025 <span>RevoU SEFC</span></h5>
+      </div>
 </body>
 </html>
